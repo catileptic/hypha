@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<div class="has-background-black">
+<head>
+    {{- partial "head.html" . -}}
+</head>
+
+<body>
+    {{- partial "header.html" . -}}
+    {{- block "main" . }}{{- end }}
+    {{- partial "footer.html" . -}}
+</body>
+</div>
+
+</html>

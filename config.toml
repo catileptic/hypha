@@ -1,0 +1,10 @@
+baseURL = "hypha.ro"
+languageCode = "en-us"
+title = "Hypha"
+theme = "hypha"
+
+[menu]
+  [[menu.main]]
+    name = "Despre proiect"
+    url = "/despre/"
+    weight = 2

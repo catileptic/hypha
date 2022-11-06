@@ -1,0 +1,35 @@
+<div class="container">
+    <nav class="navbar is-size-5  has-background-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item has-text-weight-semibold" href="/">
+                <span class="fa-stack fa-lg"></span>
+                <i class="fa fa-hand-rock-o fa-stack-2x has-text-light"></i>
+                <i class="fa fa-mouse-pointer fa-stack-1x has-text-danger blink"></i>
+                </span>
+            </a>
+            <a class="navbar-item has-text-weight-semibold has-text-light" href="/">
+                Hypha
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <!-- <div class="navbar-menu" id="navbarMain">
+            <div class="navbar-end has-text-centered-touch">
+
+                {{ range .Site.Menus.main }}
+                <a class="navbar-item has-text-light" href="{{ .URL }}">
+                    {{ $text := print .Name | safeHTML }}
+                    {{ $text }}
+                </a>
+                {{ end }}
+
+            </div>
+        </div> -->
+
+    </nav>
+</div>
