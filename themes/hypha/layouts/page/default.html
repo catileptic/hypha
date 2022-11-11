@@ -1,22 +1,40 @@
 {{ define "main" }}
-<section class="hero is-link">
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns is-vcentered row-reverse">
-        <div class="column is-6-dekstop has-text-centered-mobile">
-          <p class="title is-spaced ">
-            {{ .Title }}
-          </p>
+
+<div class="container">
+  <section class="hero has-background-light">
+    <div class="hero-body">
+      <p class="title blink">
+        <i>silence</i>
+      </p>
+      <p class="subtitle pt-3">
+        Hypha is an <b>unfinished</b> project.
+      </p>
+    </div>
+  </section>
+</div>
+
+<section>
+  <div class="container is-size-5">
+    <div class="has-background-light">
+
+      <div class="p-6">
+        <p class="title is-spaced ">
+          {{ .Title }}
+        </p>
+  
+        <div class="content is-size-5">
+          {{ .Content }}
         </div>
       </div>
+      
+
     </div>
   </div>
 </section>
 
+
 <div class="container is-max-desktop">
-  <div class="section content is-size-5">
-    {{ .Content }}
-  </div>
+
 </div>
 
 {{ end }}
