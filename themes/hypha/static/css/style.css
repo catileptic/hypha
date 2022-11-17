@@ -1,3 +1,13 @@
+/* Variables */
+
+:root {
+  --default-highlight: hsl(348, 100%, 61%); /* bulma equiv: has-text-danger */
+  --grey-0: hsl(0, 0%, 7%);                 /* bulma equiv: black-bis */
+  --grey-1: hsl(0, 0%, 14%);                /* bulma equiv: black-ter */
+}
+
+/* Animations */
+
 @-webkit-keyframes blinker {
     from {opacity: 1.0;}
     to {opacity: 0.0;}
@@ -10,4 +20,20 @@
     -webkit-animation-iteration-count:infinite;
     -webkit-animation-timing-function:ease-in-out;
     -webkit-animation-direction: alternate;
+}
+
+/* Navbar */
+
+/* Add border on tablet and smaller viewports where the menu is hidden/toggled */
+/* See https://bulma.io/documentation/overview/responsiveness/ */
+@media screen and (max-width: 1023px) {
+  .navbar-menu {
+    border-top: 1px solid var(--grey-1);
+  }
+}
+
+a.link-highlight:focus,
+a.link-highlight:hover {
+  background-color: transparent;
+  color: var(--default-highlight) !important;
 }

@@ -11,7 +11,7 @@ In reverse chronological order
 
 ## The Protocol For Planned Disconnect
 
-A workshop that emerged from the "After Extractivism" conference organized by the Beriner Gazette in 2022. The description of the protocol, below, is quoted directly from the conference page.
+A workshop that emerged from the "After Extractivism" conference organized by the Berliner Gazette in 2022. The description of the protocol, below, is quoted directly from the conference page.
 
 *Technology is not a panacea, but a tool that must be chosen and used strategically.*
 

@@ -5,6 +5,6 @@ theme = "hypha"
 
 [menu]
   [[menu.main]]
-    name = "Despre proiect"
-    url = "/despre/"
+    name = "about"
+    url = "/story/"
     weight = 2
