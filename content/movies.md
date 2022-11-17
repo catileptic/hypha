@@ -23,4 +23,4 @@ A documentary about Aaron Schwartz.
 
 ## [The Pirate Bay: Away from Keyboard](https://en.wikipedia.org/wiki/TPB_AFK)
 
-A documentary about the founding of the Piray Bay and the lawsuit that ensued. 
+A documentary about the founding of the Pirate Bay and the lawsuit that ensued.
