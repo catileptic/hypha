@@ -6,5 +6,5 @@ theme = "hypha"
 [menu]
   [[menu.main]]
     name = "about"
-    url = "/story/"
+    url = "/story"
     weight = 2
