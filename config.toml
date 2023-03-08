@@ -6,6 +6,6 @@ disablePathToLower = true
 
 [menu]
   [[menu.main]]
-    name = "traversal of feminist servers"
+    name = "ATNOFS"
     url = "ATNOFS/"
     weight = 2
