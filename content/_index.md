@@ -1,13 +1,9 @@
 ---
 title: "The Unfinished Story"
-type: "page"
-layout: default
 draft: "false"
 ---
 
 ![](https://hub.vvvvvvaria.org/rosa/chapters/HYPHA/mush1.jpeg)
-
-
 
 # What's in a name
 

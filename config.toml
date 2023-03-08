@@ -5,6 +5,6 @@ theme = "hypha"
 
 [menu]
   [[menu.main]]
-    name = "about"
-    url = "/story"
+    name = "traversal of feminist servers"
+    url = "/atnofs"
     weight = 2
