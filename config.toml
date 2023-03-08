@@ -2,6 +2,7 @@ baseURL = "hypha.ro"
 languageCode = "en-us"
 title = "Hypha"
 theme = "hypha"
+disablePathToLower = true
 
 [menu]
   [[menu.main]]
